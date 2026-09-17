@@ -1,0 +1,63 @@
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.kilo/
+.trae/
+*.swp
+*.swo
+*~
+*.log
+
+# =========================
+# Python / Django
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# Django media & static
+backend/media/
+backend/staticfiles/
+
+# Django local DB (fallback)
+backend/db.sqlite3
+
+# =========================
+# Node / Vite
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/*.tsbuildinfo
+frontend/vite.config.js
+frontend/vite.config.d.ts
+
+# =========================
+# Environment files (NEVER commit real secrets)
+# =========================
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+frontend/.env.local
